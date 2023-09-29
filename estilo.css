@@ -1,15 +1,14 @@
 body{
     background: white;
     font: normal 15pt Times;
-    background-image: url("bannerbackground.png");
+    background-image: url("imagens/bannerbackground.png");
     background-repeat: no-repeat;
 }
 header{
     margin-left: 50px;
     color: grey;
-    font-weight: bold;
     text-align:left;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times';
     height: 100px;
 }
 #titulo{
@@ -41,17 +40,13 @@ hr{
 }
 .bloco1{
     background: #FAF8F4;
-    border-radius: 10px;
     padding: 15px;
     width: 355px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    
     float: left;
     margin-left: 50px;
     margin-top: 70px;
-}
-#foto{
-    border-radius: 10px;
 }
 #curriculo:hover{
     background-color: grey;
@@ -60,13 +55,12 @@ hr{
     border-radius: 5px;
 }
 .bloco2{
-    font: normal 12pt monospace;
+    font: normal 14pt Archivo;
     background: #FAF8F4;
-    border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
     float: right;
     margin-right: 200px;
     text-align:justify;
