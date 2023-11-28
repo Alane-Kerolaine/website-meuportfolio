@@ -34,7 +34,7 @@ nav li{
 }
 nav li:hover{
     transform: scale(1.2);
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.288);
     border-radius: 10px;
 }
 header a{
@@ -53,28 +53,39 @@ main{
     margin-top: 200px;
 }
 .sobre{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    color: #DCDCE0;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    line-height: 30px;
 }
 .sobre img{
     border-radius: 50% 20% / 10% 40%;
     margin-left: 20px;
 }
 .texto-sobre{
-    border-left: 1px solid rgb(116, 116, 116);
     margin-left: 50px;
     width: 40%;
     font-size: 2rem;
     color: #DCDCE0;
     height: 170px;
     text-align: justify;
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }
-.texto-sobre p{
+.apresentacao{
+    border-left: 1px solid rgb(116, 116, 116);
+}
+.apresentacao p{
     margin-left: 30px;
+}
+#curriculo{
+    color: #DCDCE0;
+}
+#curriculo:hover{
+    color:#FF79C6;
 }
 hr{
     margin-top: 90px;
